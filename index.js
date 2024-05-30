@@ -1,5 +1,6 @@
 import express from 'express'
 import { test } from './routes/test.js'
+import { provedores } from './provedoresRoute.js';
 
 
 const app = express();
@@ -13,7 +14,8 @@ app.get(
 )
 
 
-app.use('/', test);
+app.use('/', test)
+app.use('/', provedores)
 
 
 app.listen(
