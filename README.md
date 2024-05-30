@@ -9,3 +9,28 @@
 - Rutas
     - Estáticas (GET)
     - Dinámicas (GET, PUT, DELETE)
+
+# Preparación de clase
+
+## Creación del proyecto
+
+1. Crea un directorio donde alojarás tu proyecto
+2. npm init -y
+
+## Instalaciones
+
+```bash
+npm i -E express cors
+
+```
+
+## Hellow World
+
+1. Utilizaremos la configuración `module` en vez de `commonjs`por ser más moderna
+2. Crearemos el fichero `hello-world.js` donde explicaremos un poco lo que es express
+
+## Implantación de la api
+
+1. Creación de index.js
+2. Establecimiento de las rutas
+3. Establecimiento de rutas con app.use

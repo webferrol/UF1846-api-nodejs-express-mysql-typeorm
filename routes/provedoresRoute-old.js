@@ -1,10 +1,11 @@
 import express from 'express'
+import { ROUTES } from '../constants.js'
 
 const route = express.Router()
 
 
 route.get(
-    '/provedores',
+    ROUTES.provaiders,
     (_, res) => {
         res.json(
             {
@@ -14,8 +15,17 @@ route.get(
     }
 )
 
+route.get(
+    '/provedores/:id',
+    (_, res) => {
+        res.json({
+            msg: 'Provedor con id'
+        })
+    }
+)
+
 route.post(
-    '/provedores',
+    ROUTES.provaiders,
     (_, res) => {
         res.json(
             {
@@ -26,7 +36,7 @@ route.post(
 )
 
 route.put(
-    '/provedores',
+    ROUTES.provaiders,
     (_, res) => {
         res.json(
             {
@@ -37,7 +47,7 @@ route.put(
 )
 
 route.delete(
-    '/provedores',
+    ROUTES.provaiders,
     (_, res) => {
         res.json(
             {

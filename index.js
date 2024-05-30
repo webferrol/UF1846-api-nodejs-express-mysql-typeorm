@@ -1,6 +1,7 @@
 import express from 'express'
 import { test } from './routes/test.js'
-import { provedores } from './provedoresRoute.js';
+import { provedores } from './routes/provedoresRoute.js';
+import { ROUTES } from './constants.js';
 
 
 const app = express();
@@ -15,7 +16,7 @@ app.get(
 
 
 app.use('/', test)
-app.use('/', provedores)
+app.use(ROUTES.provaiders, provedores)
 
 
 app.listen(
