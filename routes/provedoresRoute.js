@@ -1,61 +1,30 @@
 import express from 'express'
+import provaiderController from '../controllers/Provaider.js'
 
-const route = express.Router()
+const router = express.Router()
 
 
-route.get(
+router.get(
     '/',
-    (_, res) => {
-        res.json(
-            {
-                msg: 'GET'
-            }
-        )
-    }
+   provaiderController.query
 )
 
-route.get(
-    '/:id',
-    (_, res) => {
-        res.json({
-            msg: 'Provedor con id'
-        })
-    }
-)
-
-route.post(
+router.post(
     '/',
-    (_, res) => {
-        res.json(
-            {
-                msg: 'POST'
-            }
-        )
-    }
+    provaiderController.insert
 )
 
-route.put(
-    '/:id',
-    (_, res) => {
-        res.json(
-            {
-                msg: 'PUT'
-            }
-        )
-    }
+router.route('/:id')
+.get(
+    provaiderController.detailQuery
 )
-
-route.delete(
-    '/:id',
-    (_, res) => {
-        res.json(
-            {
-                msg: 'DELETE'
-            }
-        )
-    }
+.put(
+    provaiderController.update
+)
+.delete(
+    provaiderController.delete
 )
 
 export {
-    route as provedores
+    router as provaidersRouter
 }

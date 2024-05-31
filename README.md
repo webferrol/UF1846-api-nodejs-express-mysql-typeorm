@@ -4,6 +4,7 @@
 
 # Contenidos
 
+- [Importación y exportaciones de módulos](./import-export.md)
 - [Arquitectura Model-View-Controller](./mvc.md)
 - [Middleware](./middleware.md)
 - Rutas
@@ -33,4 +34,8 @@ npm i -E express cors
 
 1. Creación de index.js
 2. Establecimiento de las rutas
-3. Establecimiento de rutas con app.use
+    - use
+    - rutas de artigos
+    - rutas de provedores más eficiente
+3. Controladores
+    3.1 Class

@@ -1,3 +1,4 @@
 export const ROUTES = {
-  provaiders: '/provedores'
+  provaiders: '/provedores',
+  articles: '/artigos'
 }
