@@ -26,7 +26,7 @@ npm i -E express cors
 
 ```
 
-## Hellow Worl
+## Hello World
 
 1. Utilizaremos la configuración `module` en vez de `commonjs`por ser más moderna
 2. Crearemos el fichero `hello-world.js` donde explicaremos un poco lo que es express
