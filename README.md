@@ -2,6 +2,15 @@
 
 [Crea una API con Node.js y Express - Curso desde cero](https://www.freecodecamp.org/espanol/news/aprende-a-crear-apis-desde-cero-con-node-js-y-express-curso-desde-cero/)
 
+# UF 1846: DESENVOLVEMENTO DE APLICACIÓNS WEB DISTRIBUÍDAS  (60 Horas)
+
+- APIs RESTful: Diseño y consumo de APIs RESTful, principios REST. (0-10)
+- Desarrollo de Microservicios: Creación y gestión de microservicios utilizando Node.js, Express, Spring Boot, etc. (0-10)
+- Bases de Datos SQL y NoSQL: Diferencias, casos de uso, y ejemplos (MySQL, PostgreSQL, MongoDB, Cassandra). (0-10)
+- Seguridad en sistemas distribuidos. Cors (0-10)
+- Despliegue en la nube (0-10).
+
+
 # Contenidos
 
 - [Importación y exportaciones de módulos](./doc/import-export.md)
