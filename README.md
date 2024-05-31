@@ -4,12 +4,13 @@
 
 # Contenidos
 
-- [Importación y exportaciones de módulos](./import-export.md)
-- [Arquitectura Model-View-Controller](./mvc.md)
-- [Middleware](./middleware.md)
-- Rutas
-    - Estáticas (GET)
-    - Dinámicas (GET, PUT, DELETE)
+- [Importación y exportaciones de módulos](./doc/import-export.md)
+- [Arquitectura Model-View-Controller](./doc/mvc.md)
+- [Middleware](./doc/middleware.md)
+- [Implenentación de una API Rest](./doc/api-rest.md) 
+    - Rutas
+        - Estáticas (GET, POST)
+        - Dinámicas (GET, PUT, DELETE)
 
 # Preparación de clase
 
