@@ -1,4 +1,5 @@
-const PORT = 4000
+const PORT = process.env.PORT || 4000
+const HOST = process.env.HOST || '127.0.0.1'
 
 const ROUTES = {
   provaiders: '/provedores',
@@ -6,6 +7,7 @@ const ROUTES = {
 }
 
 export {
+  HOST,
   PORT,
   ROUTES
 }

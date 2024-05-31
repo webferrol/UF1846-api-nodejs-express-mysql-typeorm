@@ -3,33 +3,39 @@ class Provaider {
 
     }
 
-    query (req, res) {
+    query (_, res) {
         res.json({
             msg: 'Query'
         })
     }
 
     detailQuery (req, res) {
+        const { id } = req.params
         res.json({
-            msg: 'Detail Query'
+            msg: 'Detail Query',
+            id
         })
     }
 
-    insert (req, res) {
+    insert (_, res) {
         res.json({
             msg: 'insert'
         })
     }
 
     update (req, res) {
+        const { id } = req.params
         res.json({
-            msg: 'update'
+            msg: 'update',
+            id
         })
     }
 
     delete (req, res) {
+        const { id } = req.params
         res.json({
-            msg: 'delete'
+            msg: 'delete',
+            id
         })
     }
 }

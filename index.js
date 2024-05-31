@@ -1,6 +1,6 @@
 import express from 'express'
 // import { test } from './routes/test.js'
-import { PORT, ROUTES } from './constants.js';
+import { HOST, PORT, ROUTES } from './constants.js';
 import { provaidersRouter } from './routes/provedoresRoute.js';
 import { articlesRouter } from './routes/artigosRoute.js';
 
@@ -21,8 +21,8 @@ app.use(ROUTES.provaiders, provaidersRouter)
 
 
 app.listen(
-    port,
+    PORT,
     () => {
-        console.log(`Listen port ${PORT}`)
+        console.log(`Listen port ${PORT} en ${HOST}`)
     }
 )
