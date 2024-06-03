@@ -10,7 +10,6 @@
 - Seguridad en sistemas distribuidos. Cors (0-10)
 - Despliegue en la nube (0-10).
 
-
 # Contenidos
 
 - [Importación y exportaciones de módulos](./doc/import-export.md)
@@ -23,6 +22,7 @@
         - Rutas
             - Estáticas (GET, POST)
             - Dinámicas (GET, PUT, DELETE)
+    - [Dependencia de MySQL](https://sidorares.github.io/node-mysql2/docs)
 
 # Preparación de clase
 
