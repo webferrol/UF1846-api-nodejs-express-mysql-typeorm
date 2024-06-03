@@ -18,7 +18,7 @@
 - Express
     - [Middleware](./doc/middleware.md)
     - [Envío de datos](./doc/express-send.md)
-    - [Petición de datos](./doc/expresss-request.md)
+    - [Petición de datos](./doc/express-request.md)
     - [Implenentación de una API Rest](./doc/api-rest.md) 
         - Rutas
             - Estáticas (GET, POST)
