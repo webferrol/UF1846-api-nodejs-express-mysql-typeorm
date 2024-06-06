@@ -26,6 +26,8 @@
 
 # Preparación de clase
 
+- [Ejercicios de destructuración](./repaso/destructuring.md)
+
 ## Creación del proyecto
 
 1. Crea un directorio donde alojarás tu proyecto
