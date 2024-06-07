@@ -59,4 +59,4 @@ npm i -E express cors
     - rutas de artigos
     - rutas de provedores más eficiente
 3. Controladores
-    3.1 Class
+    - Class
