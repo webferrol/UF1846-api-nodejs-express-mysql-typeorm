@@ -29,7 +29,7 @@
 # Repaso
 
 - [Ejercicios de destructuración](./repaso/destructuring.md)
-- [Ejercicios de clases(./repaso/clases.md)
+- [Ejercicios de clases](./repaso/classes.md)
 
 # Deployments
 
