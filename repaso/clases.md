@@ -22,3 +22,12 @@ const lily = new Perro('Lily');
 lily.comer()
 ```
 
+¡Claro! Aquí tienes un ejercicio básico de clases en JavaScript para ayudarte a entender cómo funcionan:
+
+# Ejercicio: Crear una clase `Persona`
+
+1. **Crear la clase `Persona`**:
+    - La clase debe tener las siguientes propiedades:
+        - `nombre` (string)
+        - `edad` (número)
+    - La clase debe tener un método llamado `saludar` que imprima un mensaje en la consola que diga "Hola, mi nombre es [nombre] y tengo [edad] años."
