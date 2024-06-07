@@ -34,6 +34,7 @@
 # Deployments
 
 - [Render](https://docs.render.com/deploy-node-express-app)
+- [Vercel](https://vercel.com/guides/using-express-with-vercel)
 
 ## Creación del proyecto
 
