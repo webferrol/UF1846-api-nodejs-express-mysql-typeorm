@@ -22,7 +22,8 @@
         - Rutas
             - Estáticas (GET, POST)
             - Dinámicas (GET, PUT, DELETE)
-    - [Dependencia de MySQL](https://sidorares.github.io/node-mysql2/docs)
+- [Dependencia de MySQL](https://sidorares.github.io/node-mysql2/docs)
+  - [Using prepared statemens](https://sidorares.github.io/node-mysql2/docs#using-prepared-statements)
 
 # Preparación de clase
 
