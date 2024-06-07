@@ -30,6 +30,10 @@
 
 - [Ejercicios de destructuración](./repaso/destructuring.md)
 
+# Deployments
+
+- [Render](https://docs.render.com/deploy-node-express-app)
+
 ## Creación del proyecto
 
 1. Crea un directorio donde alojarás tu proyecto
