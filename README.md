@@ -26,9 +26,10 @@
   - [Dependencia de MySQL](https://sidorares.github.io/node-mysql2/docs)
   - [Using prepared statemens](https://sidorares.github.io/node-mysql2/docs#using-prepared-statements)
 
-# Preparación de clase
+# Repaso
 
 - [Ejercicios de destructuración](./repaso/destructuring.md)
+- [Ejercicios de clases(./repaso/clases.md)
 
 # Deployments
 
