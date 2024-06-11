@@ -1,4 +1,10 @@
-¡Claro! Aquí tienes 15 ejercicios para practicar la desestructuración en JavaScript:
+# Destructuring
+
+## Defininción
+
+El destructuring (o "desestructuración") es una característica de los lenguajes de programación modernos, como JavaScript, que permite extraer valores de arreglos u objetos y asignarlos a variables de manera más concisa y legible. Esta técnica mejora la legibilidad del código y reduce la cantidad de líneas necesarias para trabajar con estructuras de datos complejas.
+
+## Ejercicios
 
 ### Ejercicio 1: Desestructuración de Arreglos Básica
 Dado el siguiente arreglo, usa la desestructuración para asignar las primeras dos variables a `a` y `b`.
