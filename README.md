@@ -69,3 +69,14 @@ npm i -DE nodemon
 ## Posibles errores
 
 1. Cuando hagas una **petición** (`request`) con el objeto `body` utilizando algún cliente como *Postman*, *Thunder Client* cerciórate de importar la función *json()* de express
+2. Al realizar una consulta con mysql2 el orden de los parámetros en el array es importante. No es lo mismo `[prv_nome, cod]` que `[cod, prv_nome]` 
+
+```js
+db.query(
+        `
+        UPDATE tendabd.provedores
+        SET prv_nome=?
+        WHERE prv_id=?;
+        `,
+        [prv_nome, cod],
+```
