@@ -1,5 +1,8 @@
-CREATE DATABASE  IF NOT EXISTS `tenda` CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-USE `tenda`;
+CREATE DATABASE  IF NOT EXISTS `tendaBD` CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `tendaBD`;
+
+DROP TABLE IF EXISTS `artigos`;
+DROP TABLE IF EXISTS `provedores`;
 
 CREATE TABLE `provedores` (
   `prv_id` smallint(6) auto_increment,
