@@ -65,3 +65,7 @@ Los desarrolladores de la aplicación que enviará datos a otra aplicación impl
 npm i -E express mysql2 cors
 npm i -DE nodemon
 ```
+
+## Posibles errores
+
+1. Cuando hagas una **petición** (`request`) con el objeto `body` utilizando algún cliente como *Postman*, *Thunder Client* cerciórate de importar la función *json()* de express
