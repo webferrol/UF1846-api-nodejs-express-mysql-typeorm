@@ -51,8 +51,7 @@ Los desarrolladores de la aplicación que enviará datos a otra aplicación impl
   - [Dependencia de MySQL](https://sidorares.github.io/node-mysql2/docs)
   - [Using prepared statemens](https://sidorares.github.io/node-mysql2/docs#using-prepared-statements)
 - Deployments
-    - [Render](https://docs.render.com/deploy-node-express-app)
-    - [Vercel](https://vercel.com/guides/using-express-with-vercel)
+    - [Heroku. Tiene soporte BBDD MySQL](https://www.heroku.com/)
 
 ## Empezar
 
